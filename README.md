@@ -1,4 +1,4 @@
-# MeanUdemyCourse
+# MeanUdemyCourse (Frontend)
 
 **Title**: Angular & NodeJS - The MEAN Stack Guide
 
@@ -10,6 +10,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### Dependency
+
+Requires project [udemy-mean-backend-posts](https://github.com/MEAN-FWK/udemy-mean-backend-posts) to be running on port `3000`.
 
 ## Code scaffolding
 
