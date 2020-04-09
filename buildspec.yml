@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build:ci
+  post_build:
+    commands:
+      - aws s3 sync ./dist/mean-udemy-course s3://udemy-mean-frontend-posts-bucket --acl 'public-read' --delete
